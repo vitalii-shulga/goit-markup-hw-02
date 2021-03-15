@@ -87,7 +87,28 @@ address {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.nav .link {
+/* логотип сайта */
+.site-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--txt-title-color);
+  text-decoration: none;
+}
+
+.page-footer .site-logo {
+  color: var(--txt-dark-bg-color);
+}
+
+.site-logo span {
+  color: var(--accent-color);
+}
+
+/* навигация сайта */
+.site-nav .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -113,40 +134,20 @@ address {
   color: var(--txt-dark-bg-color);
 }
 
-.header .link:hover,
+.page-header .link:hover,
 .link:focus,
-.footer .link:hover,
+.page-footer .link:hover,
 .link:focus,
 .link.current {
   color: var(--accent-color);
 }
 
-/* логотип сайта */
-.site-logo {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--txt-title-color);
-  text-decoration: none;
-}
-
-.footer .site-logo {
-  color: var(--txt-dark-bg-color);
-}
-
-.site-logo span {
-  color: var(--accent-color);
-}
-
 /* основной контент */
-.hero {
+.page-hero {
   background: var(--bg-dark-color);
 }
 
-.footer {
+.page-footer {
   background: var(--bg-dark-color);
 }
 
@@ -155,7 +156,7 @@ address {
   color: var(--txt-title-color);
 }
 
-.page-title {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
