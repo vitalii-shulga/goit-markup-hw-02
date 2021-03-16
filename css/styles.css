@@ -50,28 +50,30 @@ address {
 }
 
 .btn-submit {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  text-align: center;
   color: var(--txt-dark-bg-color);
-  background: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
+  text-align: center;
   cursor: pointer;
 }
 
 .btn-filter {
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px;
+  background: var(--bg-light-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   text-align: center;
-  background: var(--bg-light-color);
-  border-radius: 4px;
-  border: none;
   cursor: pointer;
 }
 
@@ -174,6 +176,7 @@ address {
 }
 
 .pros-title {
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
